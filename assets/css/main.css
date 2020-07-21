@@ -1,3 +1,39 @@
+html {
+    font-family: 'Varta', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #082A40;
+}
+
+.title {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.container {
+    background-color: #082A40;
+    height: 100vh;
+    /* width: 100vw; Se pone vw en el width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 1100px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #F2766B;
+}
+
+.paragraph {
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
 td {
     border: solid 2px;
 }
